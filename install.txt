@@ -1,0 +1,10 @@
+Installation d'OpenCV
+Pour installer opencv_contrib, il faut d'abord installer numpy puis opencv_contrib :
+
+pip install numpy
+pip install opencv-contrib-python
+On peut vérifier que l'installation est correcte en entrant les commandes suivantes :
+
+import numpy as np
+import cv2 as cv
+print(cv.getBuildInformation())
